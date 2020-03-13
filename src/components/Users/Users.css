@@ -1,0 +1,32 @@
+.parent-container{
+    width: 50%;
+}
+.user-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    position: relative;
+    background-color: rgba(244, 67, 54, 0.29);
+    box-shadow: 0px 2px 8px 1px rgba(106, 102, 101, 0.4);
+}
+.user-container button{
+    position: absolute;
+    right: 5px;
+    bottom:0;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.user-container h3{
+    text-align: left;
+    line-height: 0px;
+}
+.user-container h4{
+    text-align: left;
+    font-weight: normal;
+    line-height: 10px;
+}
+.user-container img{
+    width: 80px;
+    padding: 15px;
+}
